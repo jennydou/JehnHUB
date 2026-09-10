@@ -16,15 +16,10 @@
 body {
   margin: 0;
   background: var(--bg);
-  background-image :url('cb079c34458e8ef0c114d634bd3661fd.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   color: var(--ink);
   font-family: var(--serif);
   font-size: 16px;
-  line-height: 1.56;
+  line-height: 1.55;
 }
  
 a { color: var(--ink); }
@@ -189,6 +184,7 @@ a:hover { color: var(--ink-soft); }
   padding: 2rem 0;
 }
  
+/* ---------- responsive ---------- */
 @media (max-width: 860px) {
   .layout { grid-template-columns: 1fr; }
   .col--left, .col--right { border: none; border-top: 1px dotted var(--line); }
