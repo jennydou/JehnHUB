@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>(имя сайта)</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=IM+Fell+English:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <header class="banner">
+    <div class="banner__noise"></div>
+    <h1 class="banner__title">(имя сайта)</h1>
+  </header>
+ 
+  <nav class="tabs">
+    <span class="tabs__crumb">(имя сайта) ----------→ ⌂</span>
+    <a href="#" class="tab is-active">diary</a>
+    <a href="#" class="tab">personal</a>
+    <a href="#" class="tab">microblog</a>
+    <a href="#" class="tab">media</a>
+    <a href="#" class="tab">заметки</a>
+    <a href="#" class="tab">liquid log</a>
+    <a href="#" class="tab">guestbook</a>
+  </nav>
+ 
+  <div class="layout">
+ 
+
+    <aside class="col col--left">
+ 
+      <section class="box calendar">
+        <p class="calendar__month">6 / 2025</p>
+        <table>
+          <thead>
+            <tr><th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+            <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+            <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+            <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+            <tr><td class="is-today">29</td><td>30</td><td class="is-muted">1</td><td class="is-muted">2</td><td class="is-muted">3</td><td class="is-muted">4</td><td class="is-muted">5</td></tr>
+          </tbody>
+        </table>
+        <p class="calendar__nav">←—— prev | next ——→</p>
+      </section>
+ 
+      <section class="box linkme">
+        <p class="box__label">link me:</p>
+        <div class="linkme__badge">(имя сайта)</div>
+        <code class="linkme__code">&lt;a href="https://..."&gt;</code>
+        <p class="linkme__note">feel free to hotlink!</p>
+      </section>
+ 
+      <section class="box neighbors">
+        <p class="box__label">neighbors</p>
+        <div class="neighbors__grid">
+          <div class="neighbor-badge"></div>
+          <div class="neighbor-badge"></div>
+          <div class="neighbor-badge"></div>
+          <div class="neighbor-badge"></div>
+          <div class="neighbor-badge"></div>
+          <div class="neighbor-badge"></div>
+        </div>
+      </section>
+ 
+    </aside>
+ 
+    <main class="col col--main">
+ 
+      <h2 class="heading">Привет</h2>
+      <p>
+        (здесь должно быть био — пара предложений о тебе: кто ты, чем занимаешься,
+        что можно найти на этом сайте)
+      </p>
+      <p>
+        (тут ещё немного описания — интересы, проекты, тон сайта)
+      </p>
+ 
+      <div class="divider" aria-hidden="true"></div>
+ 
+      <h2 class="heading">Новости</h2>
+ 
+      <article class="entry">
+        <p class="entry__date">(дата)</p>
+        <p>(тут описание — что нового добавлено или изменено)</p>
+      </article>
+ 
+      <article class="entry">
+        <p class="entry__date">(дата)</p>
+        <p>(тут описание)</p>
+      </article>
+ 
+      <article class="entry">
+        <p class="entry__date">(дата)</p>
+        <p>(тут описание)</p>
+      </article>
+ 
+    </main>
+ 
+    <!-- RIGHT COLUMN -->
+    <aside class="col col--right">
+ 
+      <section class="box profile">
+        <p class="box__label">(твоё имя)</p>
+        <div class="profile__photo"></div>
+        <p class="profile__tags">(тут краткие теги о себе — возраст, местоимения, увлечения)</p>
+        <p class="profile__status">(тут статус) — (дата)</p>
+ 
+        <p class="box__label">чем занят(а)</p>
+        <ul class="profile__list">
+          <li>(пункт 1)</li>
+          <li>(пункт 2)</li>
+          <li>(пункт 3)</li>
+        </ul>
+ 
+        <p class="box__label">featured img</p>
+        <div class="profile__featured"></div>
+      </section>
+ 
+    </aside>
+ 
+  </div>
+ 
+  <footer class="site-footer">(твоё имя) © 2025</footer>
+ 
+</body>
+</html>
