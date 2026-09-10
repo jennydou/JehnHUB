@@ -16,6 +16,7 @@
 body {
   margin: 0;
   background: var(--bg);
+  background-image :url('bg.img');
   color: var(--ink);
   font-family: var(--serif);
   font-size: 16px;
